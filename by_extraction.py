@@ -21,7 +21,7 @@ def sort_by_extraction(array: list) -> list:
     """
     n = len(array)
 
-    for i in list(reversed(range(n)))[:-1]:
+    for i in range(n, -1, -1):
         # ищем максимальный элемент в неотсортированной части
         max_index = 1
         for j in (range(1 + i)):

@@ -23,7 +23,7 @@ def sort_by_buble(array: list) -> list:
     """
     n = len(array)
 
-    for i in list(reversed(range(n)))[:-1]:
+    for i in range(n, -1, -1):
         flag = False
         for j in range(i):
             if array[j] > array[j + 1]:
