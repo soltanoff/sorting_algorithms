@@ -21,8 +21,6 @@ def sort_by_heap(array: list) -> list:
 
     :param array: исходный массив
     :return array: упорядоченный исходный массив
-    :param array:
-    :return:
     """
     def swap(i, j):
         array[i], array[j] = array[j], array[i]

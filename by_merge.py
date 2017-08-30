@@ -19,8 +19,6 @@ def sort_by_merge(array: list) -> list:
 
     :param array: исходный массив
     :return array: упорядоченный исходный массив
-    :param array:
-    :return:
     """
     if len(array) > 1:
         mid = len(array) // 2
